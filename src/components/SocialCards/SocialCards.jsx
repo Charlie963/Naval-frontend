@@ -12,7 +12,6 @@
   import React, { useEffect, useState } from "react";
   import {
     AiFillTwitterCircle,
-    AiFillLinkedin,
     AiFillGithub,
     AiFillFacebook,
     AiFillInstagram,
