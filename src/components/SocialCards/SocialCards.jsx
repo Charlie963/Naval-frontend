@@ -73,7 +73,7 @@
                 <Image 
                 preview={true} 
                 className='carding'
-                src={profile.image ? `http://localhost:1337${profile.image.url}` : 
+                src={profile.image ? `https://seashell-app-43x2f.ondigitalocean.app${profile.image.url}` : 
                 profile.avatar_url ??
                 `${AVATAR_API}?name=${profile.username}&background=1890ff&color=fff`}
                 alt='' height='100px' width='100px'/>
