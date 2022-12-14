@@ -325,6 +325,10 @@ code {
   animation: ease-in-out;
 }
 
+.main-content h2{
+  color: white;
+}
+
 .para{
   font-size:50px;
   font-weight: 900;
@@ -391,7 +395,7 @@ code {
 .login_homepage h1{
   font-size: 45px;
   text-align: center;
-  background: rgb(134, 22, 2);
+  background: rgb(25, 121, 255);
   font-style: italic;
   margin-top: 47vh;
   width: 45%;

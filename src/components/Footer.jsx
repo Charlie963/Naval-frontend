@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         <div className="right box">
-          <h2>Development Team</h2>
+          <h2>Address</h2>
           <div className="content">
            
               <div className="email">
