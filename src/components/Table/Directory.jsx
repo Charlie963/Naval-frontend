@@ -31,7 +31,7 @@ const Directory = () => {
         <div className="app">
         <input
          className='search'
-         placeholder='Search...'
+         placeholder='Search names,address,no...'
          type='text'
          onChange={(e) => setQuery(e.target.value)}
          />

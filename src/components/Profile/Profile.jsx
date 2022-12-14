@@ -117,7 +117,8 @@ const Profile = () => {
               <Input placeholder="Email" />
             </Form.Item>
           </Col>
-          <Col span={24}>
+          <Col span={24}
+          className="address">
             <Form.Item
               label="Address"
               name="address"

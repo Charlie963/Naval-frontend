@@ -12,6 +12,7 @@
   import React, { useEffect, useState } from "react";
   import {
     AiFillTwitterCircle,
+
     AiFillGithub,
     AiFillFacebook,
     AiFillInstagram,
@@ -24,7 +25,7 @@
   const SocialCards = () => {
     const [profiles, setProfiles] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
-    const [query,setQuery] = useState('');
+    const [query,setQuery] = useState(' ');
   
     const fetchProfiles = async () => {
       setIsLoading(true);
@@ -61,9 +62,12 @@
       
       <div className='container'>
         {profiles.filter(profile=>
-        profile.username.toLowerCase().includes(query) ||
-        profile.rank.toLowerCase().includes(query) ||
-        profile.address.toLowerCase().includes(query)
+        profile.username?.toLowerCase().includes(query) ||
+        profile.username?.toUpperCase().includes(query) ||
+        profile.rank?.toLowerCase().includes(query) ||
+        profile.rank?.toUpperCase().includes(query) ||
+        profile.address?.toLowerCase().includes(query) ||
+        profile.address?.toUpperCase().includes(query)
          )
         .map((profile, index) => (
           <div className="card"  key={`${profile.id}_${index}`}>

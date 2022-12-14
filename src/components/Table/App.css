@@ -39,7 +39,9 @@
     margin: 50px 0px;
     border-spacing: 15px;
     color: #444;
+    
   }
+
   
   tr {
     margin-bottom: 20px;
@@ -59,4 +61,65 @@
   table, th, td {
     color: rgb(4, 59, 108);
     border: 1px solid blue;
+   
+  }
+
+  @media only screen and  (max-width:500px) {
+
+    .search{
+      margin-top: 4vh;
+      width: 40vh;
+    }
+
+    .app{
+      width:100%;
+      margin-bottom: 0px;
+    border-radius: 0px;
+    margin-top: 11vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(17, 55, 89);
+    text-align: center;
+    margin-left: 0vh;
+    margin-right: 1.5vh;
+    }
+
+    table {
+      margin-top: 50%;
+      width: 3%;
+      margin: 50px 0px;
+      border-spacing: 15px;
+      margin-left: 1vh;
+      margin-right: 1vh;
+      color: #444;
+      
+    }
+
+    
+  tbody{
+    width: 10%;
+  }
+
+  tr {
+    margin-bottom: 05px;
+  }
+  
+  th {
+    width: 10px;
+    text-align: center;
+    font-size: 09px;
+  }
+  
+  td {
+    width: 10px;
+    font-size: 08px;
+  }
+
+  table, th, td {
+    color: rgb(4, 59, 108);
+    border: 1px solid blue;
+   
+  }
+
   }
