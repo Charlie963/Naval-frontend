@@ -6,10 +6,9 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    color: rgb(17, 55, 89);
+    color: rgb(0, 0, 0);
     text-align: center;
     margin-left: 18vh;
-    background: linear-gradient(90deg, rgba(36,0,16,1) 0%, rgba(6,41,46,1) 0%, rgba(168,107,255,1) 0%, rgba(71,149,219,1) 50%, rgba(160,210,255,1) 100%);
   }
   
   
@@ -59,8 +58,8 @@
   }
 
   table, th, td {
-    color: rgb(4, 59, 108);
-    border: 1px solid blue;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
    
   }
 

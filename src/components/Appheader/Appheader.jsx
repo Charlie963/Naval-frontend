@@ -68,9 +68,9 @@ const AppHeader = () => {
               Login
             </Button>
             <Button
-              className="auth_button_signUp"
+              className="auth_button_login"
               href="/signup"
-              type="ghost"
+              type="primary"
             >
               SignUp
             </Button>
