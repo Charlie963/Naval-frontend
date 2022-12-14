@@ -24,10 +24,10 @@
                 <AppRoutes/>
               </Content>
             </Col>
-            <Col span={24}>
-              <Header>
+            <Col span={24} offset={0}>
+              <Footer>
                 <Footer/>
-              </Header>
+              </Footer>
             </Col>
           </Row>
         </Layout>
