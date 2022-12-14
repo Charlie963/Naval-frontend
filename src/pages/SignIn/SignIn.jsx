@@ -55,7 +55,7 @@ const SignIn = () => {
 
         message.success(`Welcome back ${data.user.username}!`);
 
-        navigate("/SocialCards", { replace: true });
+        navigate("/Home", { replace: true });
       }
     } catch (error) {
       console.error(error);

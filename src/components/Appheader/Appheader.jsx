@@ -36,14 +36,14 @@ const AppHeader = () => {
         {user ? (
           <div className="header_user">
              <div className={isMobile ? "directions active":"directions" }>
+             <Button className="header_space_brand" href="/home" type="link">
+                  Home
+                </Button>
                 <Button className="header_space_brand" href="/socialcards" type="link">
                   Profiles
                 </Button>
                 <Button className="header_space_brand" href="/directory" type="link">
                   Directory
-                </Button>
-                <Button className="header_space_brand" href="/app" type="link">
-                  Contact us
                 </Button>
                 <Button className="header_space_brand" href="/profile" type="link">
                   {user.username}

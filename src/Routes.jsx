@@ -18,7 +18,7 @@ const AppRoutes = () => {
       <Route path="/Signup" element={<SignUp/>}/>
       <Route path="/SocialCards" element={getToken() ? <SocialCards/> :<Navigate to="/signin" />}/>
       <Route path="/Directory" element={getToken() ? <Directory/> :<Navigate to="/signin" />}/>
-      <Route path="/Home" element={getToken() ? <Home /> :<Navigate to="/signin" />}/>
+      <Route path="/Home" element={<Home />}/>
       <Route path="/ForgotPassword" element={<ForgetPassword/>}/>
       <Route
         path="/profile"
