@@ -178,6 +178,7 @@ code {
    display: flex;
    flex-direction: row;
    padding-top: 0;
+   color: white;
   }
     .directions{
     display: flex;
@@ -205,11 +206,12 @@ code {
 
   .auth_button_logout{
     background-color: rgba(102, 131, 236, 0.25);
-    margin: 5px 210px 0 210px;
-    color: #1890ff;
+    margin: 5px 20px 0 0px;
+    align-items: center;
+    color: #ffffff;
   }
 
-  .header_space_brand{
+  .header_space_brand .auth_button_logout{
     display: block;
     widows: 100%;
     padding: 2rem 0;
@@ -222,17 +224,22 @@ code {
     background-color: #1890ff;
     backdrop-filter: blur(20px);
   }
+
+  .home_button{
+    margin-bottom: 30px;
+  }
 }
 
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width:500px) and (min-width:370px) {
 
   .header_space{
     height: 100px;
-    padding-bottom: -90px;
+    padding-bottom: 0px;
   }
 
+  
   .title{
-    color: rgb(14, 15, 15);
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     font-size: medium;
@@ -256,6 +263,7 @@ code {
     width: 70px;
     height: 70px;
     margin-left: 5px;
+    margin-top: 15px;
   }
 
   .auth_button_signUp{
@@ -449,98 +457,6 @@ code {
   background-image:linear-gradient(to left,#fefc8e,#ff0291);
 }
 
-/************************************************Home page media max-width 768*****************************************************/
-
-@media (max-width:768px) {
-
-  .homepage_layout{
-    margin-top: 3vh;
-    width: 100%;
-    margin-right: 0vh;
-    margin-left: 0vh; 
-    height: 100vh;
-    backface-visibility: 0.1;
-    border-radius: 20px;
-  }
-
-  .foreword{
-    font-size:larger;
-    font-family: sans-serif;
-    text-align: center;
-    color: #ffffff;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    width: 99%;
-    align-items: center;
-  }
-  
-  .foreword_wrapper{
-    
-    margin-top: 5px;
-    margin-left: 0vh;
-    margin-right: 10px;
-    padding-bottom: 90px;
-    border-radius: 10px;
-    width: 100%;  
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1015%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M805 109L1149 453' stroke-width='10' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1057 254L889 86' stroke-width='6' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M606 213L872 479' stroke-width='6' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1023 402L610 -11' stroke-width='8' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M489 96L295 -98' stroke-width='8' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M757 246L1038 527' stroke-width='10' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1208 336L1453 581' stroke-width='8' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M812 558L522 268' stroke-width='6' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M650 61L374 -215' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1095 526L1306 737' stroke-width='8' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M748 192L1072 516' stroke-width='8' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M216 24L480 288' stroke-width='10' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M658 264L354 -40' stroke-width='10' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M100 247L-55 92' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M555 344L715 504' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M228 465L-68 169' stroke-width='6' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M996 170L643 -183' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1373 185L1530 342' stroke-width='6' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M258 306L461 509' stroke-width='10' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M546 282L318 54' stroke-width='8' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1120 336L1540 756' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1084 372L913 201' stroke-width='8' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1129 546L1501 918' stroke-width='10' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1144 345L1340 541' stroke-width='10' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M164 49L567 452' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1407 265L1790 648' stroke-width='8' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1227 87L1454 314' stroke-width='10' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M39 255L288 504' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M330 370L632 672' stroke-width='6' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M753 442L1137 826' stroke-width='8' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1310 71L991 -248' stroke-width='10' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1242 525L1090 373' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1278 168L1548 438' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M522 278L775 531' stroke-width='10' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1054 211L1425 582' stroke-width='6' stroke='url(%23SvgjsLinearGradient1016)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M1120 161L1463 504' stroke-width='10' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1007 134L1240 367' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1339 421L1177 259' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M1254 309L1066 121' stroke-width='6' stroke='url(%23SvgjsLinearGradient1017)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1015'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' id='SvgjsLinearGradient1016'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1017'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
-  }
-
-  .homepage_downout{
-    text-align: center;
-  width: 100%;
-  margin-left: 0vh;
-  margin-top: 0vh;
-  }
-  
-
-  .topic{
-    font-size: 40px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-  .login_homepage h1{
-    font-size: 27px;
-    text-align: center;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,33,33,1) 35%, rgba(0,212,255,1) 100%);
-    font-style: italic;
-    margin-top: 64.5vh;
-    width: 50%;
-    border-radius: 15%;
-    margin-left: 21vh;
-    color: #cad1d6;
-  }
-
-  .sign{
-    float: right;
-    margin-top: -1vh;
-    margin-right: 1vh;
-    color: #cad1d6;
-  }
-
-  .homepage_downout h1{
-    font-weight: 600;
-    color: #ffffff;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,33,33,1) 35%, rgba(0,212,255,1) 100%);
-    width: 40vh;
-    margin-left: 17vh;
-    margin-bottom: 5vh;
-    margin-top: 0vh;
-    border-radius: 20px;
-    opacity: 0.5;
-  }
-
-  .homepage_downout .homepage_signup{
-    color: #ffffff;
-    width: 10vh;
-    margin-bottom: 15vh;
-    margin-top: 16vh;
-    margin-left: 40px;
-    cursor: pointer;
-    font-size: large;
-    padding: 0vh;
-    height: 4vh;
-  }
-  }
 
 
 
@@ -956,7 +872,7 @@ footer{
 }
 
 /**************************************************************** 376 media**************************/
-@media only screen and  (max-width:500px) {
+@media only screen and  (max-width:450px) {
 
  
 
@@ -973,26 +889,60 @@ footer{
 
   .homepage_layout{
     border-radius: 0px;
+    margin-left: 0px;
+    width: 100%;
+    margin-right: 0px;
   }
+
   .login_homepage h1{
     font-size: small;
-    margin-top: 56vh;
+    margin-top: 47vh;
     margin-left: 12vh;
   }
   .topic{
     font-size: medium;
   }
 
-  .foreword_wrapper{
+  .foreword{
     border-radius: 0px;
-    margin-top: 0px;
+    margin-top: -10px;
+    color: #000000;
+    margin-bottom:-13vh;
+    margin-right: -10vh;
+    padding-bottom: 90px;
+    background-color: rgb(255, 206, 206);
   }
 
+  .foreword_wrapper{
+    background-color: rgb(255, 206, 206);
+    margin-right: -10px;
+    margin-left: 0px;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .sign{
+    color: #000000;
+    margin-top: 10px;
+    margin-right: 19vh;
+  }
+  .homepage_downout{
+  margin-left: 0px;
+    width: 100%;
+    margin-right: 0px;}
   .homepage_downout h1{
     font-size: 25px;
     width: 23vh;
     margin-left: 12vh;
+    color: white;
+    background-color: #1da7f2;
   }
+
+  .homepage_downout .homepage_signup{
+    width: 90px;
+  }
+
+ 
 
 
   /******************************social media*****************/
@@ -1008,7 +958,7 @@ footer{
 .big_container{
   margin-bottom: 0vh;
   margin-top: 11vh;
-  background: linear-gradient(90deg, rgba(36,0,16,1) 0%, rgba(168,107,255,1) 0%, rgba(255,213,100,1) 19%, rgba(71,202,219,1) 39%, rgba(255,160,160,1) 100%);
+  background: white;
   width: 100%;
   margin-left: 0vh;
   border-radius: 0px;
@@ -1028,13 +978,13 @@ footer{
   display: flex;
   height: auto;
   border-radius: 20px;
-  margin: -3vh 30px 70px 30px;
+  margin: -20px 0px 70px 30px;
   justify-content: center;
   box-shadow: 0px 1px 10px black;
 }
 
 .carding{
-  margin-left: 14px;
+  margin-left: -4px;
 }
 
 .searchh{
@@ -1054,7 +1004,11 @@ footer{
 
 
 }
+
+
 @media screen and (max-width: 900px) {
+
+  
   footer{
     position: relative;
     bottom: 0px;
@@ -1080,4 +1034,207 @@ footer{
     margin-left: 0vh;
     margin-top: -10vh;
   }
+
+
 }
+
+@media only screen and  (max-width:550px) {
+
+  /****************Social media card****************************/
+  .container{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0vh;
+    margin-left: 0px;
+    position: relative;
+    height: auto;
+  }
+ 
+  
+
+.big_container{
+  margin-bottom: 0vh;
+  margin-top: 11vh;
+  background: white;
+  width: 100%;
+  margin-left: 0vh;
+  border-radius: 0px;
+  padding-top: 10px;
+}
+
+.address{
+  margin-bottom:110px;
+}
+
+
+.card{
+  box-shadow: 0px 1px 10px rgb(255, 79, 79);
+  justify-content: center;
+  background: rgb(163, 255, 249);
+  flex-direction: column;
+  display: flex;
+  height: auto;
+  border-radius: 20px;
+  margin: -20px 0px 70px 30px;
+  justify-content: center;
+  box-shadow: 0px 1px 10px black;
+}
+
+.carding{
+ 
+  margin-left: 24px;
+}
+
+.searchh{
+  text-align: center;
+  margin-top:5px;
+  padding: 0px;
+  margin-bottom: 5vh;
+  font-size: 20px;
+}
+
+.ant-layout-header{
+  height: 0vh;
+}
+
+}
+
+@media only screen and   (max-width:770px) and (min-width:500px)  {
+
+  .copyright
+ {
+      margin-bottom: -10vh;
+      padding-bottom: 5vh;
+ }
+  .border{
+    margin-top: 11vh;
+  }
+
+  .homepage_layout{
+    border-radius: 0px;
+    margin-left: 0px;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .login_homepage h1{
+    font-size: small;
+    margin-top: 59vh;
+    margin-left: 23vh;
+  }
+  .topic{
+    font-size: medium;
+  }
+
+  .foreword{
+    border-radius: 0px;
+    margin-top: -10px;
+    color: #000000;
+    margin-bottom:-13vh;
+    margin-right: -10vh;
+    padding-bottom: 90px;
+    background-color: rgb(255, 206, 206);
+  }
+
+  .foreword_wrapper{
+    background-color: rgb(255, 206, 206);
+    margin-right: -10px;
+    margin-left: 0px;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .sign{
+    color: #000000;
+    margin-top: 30px;
+    margin-right: 0vh;
+  }
+  .homepage_downout{
+  margin-left: 0px;
+    width: 100%;
+    margin-right: 0px;}
+  .homepage_downout h1{
+    font-size: 25px;
+    width: 23vh;
+    margin-left: 26vh;
+    color: white;
+    background-color: #1da7f2;
+  }
+
+  .homepage_downout .homepage_signup{
+    width: 90px;
+  }
+
+  /****************Social media card****************************/
+  .container{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0vh;
+    margin-left: 0px;
+    position: relative;
+    height: auto;
+  
+  }
+
+  
+
+.big_container{
+  margin-bottom: 0vh;
+  margin-top: 11vh;
+  background: white;
+  width: 100%;
+  margin-left: 0vh;
+  border-radius: 0px;
+  padding-top: 10px;
+  
+}
+
+.address{
+  margin-bottom:110px;
+}
+
+
+.card{
+  box-shadow: 0px 1px 10px rgb(255, 79, 79);
+  justify-content: center;
+  background: rgb(163, 255, 249);
+  flex-direction: column;
+  display: flex;
+  padding: 0px;
+  height: auto;
+  border-radius: 20px;
+  margin:-20px 0px 70px 180px;
+  justify-content: center;
+  box-shadow: 0px 1px 10px black;
+ 
+}
+
+.carding{
+ 
+  margin-left: 24px;
+}
+
+.searchh{
+  text-align: center;
+  margin-top:5px;
+  padding: 0px;
+  margin-bottom: 5vh;
+  font-size: 20px;
+}
+
+.ant-layout-header{
+  height: 0vh;
+}
+
+
+}
+
+.address{
+  margin-bottom: 0px;
+}
+
+.profile_page_card{
+  margin-left: 0vh;
+  margin-top: -8vh;
+}
+
