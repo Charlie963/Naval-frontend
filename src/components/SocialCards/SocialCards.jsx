@@ -21,9 +21,11 @@
   import { CgWebsite } from "react-icons/cg";
   import { SiGmail } from "react-icons/si";
   import { API, AVATAR_API } from "../../constant";
+  import { useAuthContext } from "../../context/AuthContext";
   
   const SocialCards = () => {
     const [profiles, setProfiles] = useState([]);
+    const { user, setUser } = useAuthContext();
     const [isLoading, setIsLoading] = useState(false);
     const [query,setQuery] = useState(' ');
   
@@ -53,9 +55,11 @@
     return (
       <div className="big_container">
       <div className='searchh'>
+        <div className="searchitem">Search by Name, Place, Rank</div>
       <input   
-         placeholder='Search by name,place...'
+        //  placeholder='Search by name,place...'
          type='text'
+         className= "searchbar"
          onChange={(e) => setQuery(e.target.value)}
          />
       </div>
@@ -76,7 +80,8 @@
                 <Image 
                 preview={true} 
                 className='carding'
-                src={profile.image ? `https://seashell-app-43x2f.ondigitalocean.app${profile.image.url}` : 
+                src={profile.image ? profile.image.url :
+                // src={profile.image ? `http://localhost:1338${profile.image.url}` : 
                 profile.avatar_url ??
                 `${AVATAR_API}?name=${profile.username}&background=1890ff&color=fff`}
                 alt='' height='100px' width='100px'/>

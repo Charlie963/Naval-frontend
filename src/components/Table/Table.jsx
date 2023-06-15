@@ -6,7 +6,7 @@ const Table = ({data}) => {
  
   return (
     <>
-    <table>
+    <table className="table table-bordered ">
       <tbody>
         <tr>
           <th>Name</th>

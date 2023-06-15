@@ -1,11 +1,12 @@
     
 import React from "react";
-import { Button, Card, Col, Form, Input, message, Row, Spin, Upload } from "antd";
+import { Button, Card, Col, Form, Input, message, Row, Spin } from "antd";
 import { useAuthContext } from "../../context/AuthContext";
 import { API } from "../../constant";
 import { useState } from "react";
-import { getToken } from "../../helpers";
+import { getToken, setToken } from "../../helpers";
 import { useNavigate } from "react-router-dom";
+import UploadImage from "../UploadImage/UploadImage";
 
 const Profile = () => {
   const [loading, setLoading] = useState(false);
@@ -41,30 +42,9 @@ const Profile = () => {
     return <Spin size="large" />;
   }
 
-  const handleSubmit = async (data) => {
-    setLoading(true);
-    try {
-      const response = await fetch(`${API}/upload/${user.id}`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          // set the auth token to the user's jwt
-          Authorization: `Bearer ${getToken()}`,
-        },
-        body: JSON.stringify(data),
-      });
-      const responseData = await response.json();
+  
 
-      setUser(responseData);
-      message.success("Data saved successfully!");
-      navigate("/SocialCards", { replace: true });
-    } catch (error) {
-      console.error(Error);
-      message.error("Error While Updating the Profile!");
-    } finally {
-      setLoading(false);
-    }
-  };
+  
 
 
   return (
@@ -75,6 +55,10 @@ const Profile = () => {
         initialValues={{
           username: user?.username,
           email: user?.email,
+          address: user?.address,
+          contact: user?.contact,
+          rank:user?.rank,
+          laneline: user?.laneline,
           twitter_username: user?.twitter_username,
           linkedin_username: user?.linkedin_username,
           github_username: user?.github_username,
@@ -82,6 +66,8 @@ const Profile = () => {
           website_url: user?.website_url,
           about: user?.about,
           image: user?.image,
+          facebook_username: user?.facebook_username,
+          instagram_username: user?.instagram_username
         }}
         onFinish={handleProfileUpdate}
       >
@@ -231,19 +217,7 @@ const Profile = () => {
             </Form.Item>
           </Col>
 
-          <Form.Item
-              label="image"
-              name="image"
-              rules={[
-                {
-                  type: "file",
-                },
-              ]}
-          >
-           <Input type="file"
-           />
-          
-        </Form.Item>
+    
 
         </Row>
         <Button
@@ -262,6 +236,7 @@ const Profile = () => {
         </Button>
       </Form>
     </Card>
+    <UploadImage/>
     </div>
   );
 };

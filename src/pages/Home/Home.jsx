@@ -17,7 +17,8 @@ const Home = () => {
       
     <p className='para'>
       <div className='topic'>
-      <h2>Indian Naval Hydrographic Department</h2>
+      <h2>Indian Naval Hydrography Veterans<br/> 
+        Unity in Service</h2>
       </div>
       
     </p>
@@ -31,37 +32,32 @@ const Home = () => {
     
     <p className='foreword'>
       <div>
-      <img src="https://3.imimg.com/data3/UL/ED/MY-10065237/0-500x500.jpg" className='Skjha' />
+      <img src="https://hydrobharat.gov.in/wp-content/uploads/2021/10/CH-Photo-1.png" className='Skjha' />
       </div>
       <div foreword_para>
-      I firmly believe that the greatest asset of
-      any department and specially so in the Armed
-      Forces is their human resources. An institute
-      is only as good as its people, both serving and
-      the alumni. Over the years Indian Navy has
-      trained a large number of officers and sailors
-      in the Hydrographic Department who have
-      done yeoman's service to the branch and they
-      continue to excel in their second innings
-      bringing laurels to the department.
-
-      The long outstanding need to reconnect with the veterans of our small
-      community was finally fulfilled with the 60th anniversary of the National
-      Hydrographic Office this year. Carrying forward the initiative, the office has made
-      an earnest endeavor to reach out to the veterans and compile this directory
-      “Coordinates” which shall hopefully strengthen our bonds and ensure greater
-      communication amongst the fraternity.
-      May our community grow in strength and continue to carve a niche for
-      themselves as professionals in their chosen field post retirement. This small
-      endeavor will hopefully go a long way in ensuring we reach out to each other for
-      fruitful interaction. Suggestions for improvement and inclusion of more veterans
-      in this compilation may be forwarded. I compliment my team at NHO who have in
-      a very short period painstakingly complied this directory.<br/>
+      <br/>
+      The ever-expanding nature and the immense global potential of hydrography is now being
+increasingly utilised to further the maritime diplomacy role of our Navy. The growth of the
+hydrography cadre, in particular, has been made possible only through the small initial steps that
+were taken many years ago, by our ‘now’ veterans, which have now become giant strides for our
+Navy as well as our nation. It is indeed inspiring for the young men (and soon, women too), who
+continue to strive to follow your footsteps, and even create milestones of their own.
+Our veterans have done their best and they are the reason for us to enjoy the fruits of their
+labour, vision and foresight. It is therefore our duty to do our bit, through this humble endeavour, to
+provide a ‘one-stop-shop’ source of contact details of our naval hydrographic veterans community. <br/><br/>
+I am sure you would realise that maintaining an up-to-date directory of all veterans is not an easy task.
+Therefore, I would like to place on record the efforts put in by Compilation Team consisting of NHO
+staff and veterans, who went beyond their professional taskings, in painstakingly updating and
+meticulously compiling the second edition of ‘Coordinates’. I am sanguine that this edition would
+assist us to better reach out to our veteran community and also linkup with some lost connects.
+While words alone can never be enough to express our gratitude, I would like to humbly
+convey to all our veterans – those who have left us, and those who continue to guide us in our
+endeavours –<br/> a big <strong>‘Thank You’</strong> for your service.<br/> Jai Hind.<br/>
       </div>
       
     </p>
 
-    <p className='sign'>Sk Jha <br />
+    <p className='sign'>Adhir Arora<br />
     Vice Admiral <br/>
     Chief of Hydragrapic Department
     </p>

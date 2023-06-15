@@ -29,7 +29,7 @@ const AppHeader = () => {
             <img className="header_space_image" src="https://upload.wikimedia.org/wikipedia/en/e/eb/National_Hydrographic_Office_%28India%29.jpg" alt="" />
           </Button>        
       </div>
-      <div className="title">Institute of Hydrography  </div> 
+      <div className="title">National Hydrographic Office </div> 
       
       
       <Space>

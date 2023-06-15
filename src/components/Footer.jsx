@@ -21,7 +21,7 @@ const Footer = () => {
                             <li><a href="/home">Home</a></li>
                             <li><a href="/SocialCards">Find my colleague</a></li>
                             <li><a href="/Profile">My Profile</a></li>
-                            <li><a href="/Contactus">Contact us</a></li>
+                            <li><a href="/home">Contact us</a></li>
                             <li><a href="/Directory">Directory</a></li>
                         </ul>
             <div className="social">
@@ -61,15 +61,15 @@ const Footer = () => {
           <h2>Development Team</h2>
           <div className="content">
            
-              <div className="email">
-                <div className="text"> <h2>Captain Peush Pawsey <br /></h2>
-                        Director of Hydrography (Operations)</div>
-              </div>
-              <div className="msg">
-                <div className="text"> <h2>Dinesh Babu Ex-POSR I <br /></h2>
-                9760755024 
+                <div className="text"> <h2>Captain N Dheeraj<br /></h2>
                 
-                <h2>Somvir POSRI</h2> </div>
+                <div className="text">
+                   <h2>Dinesh Babu Ex-POSR I <br /></h2>
+                9760755024 
+                <h2>Cdr BS Rainu (Retd)</h2>
+                <h2>Prahlad Ram LS (HY)</h2> </div>
+
+
                
               </div>
              
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="copyright">Tech Enigma © 2022</p>
+      <p className="copyright">Tech Enigma © 2023</p>
       
     </footer>
     </div>

@@ -43,7 +43,7 @@ const ForgotPassword = () => {
 
     try {
       // Send a request to the Strapi API to send a password reset email
-      const response = await fetch('http://localhost:1337/forgot-password', {
+      const response = await fetch("https://hydro-naval-server.onrender.com/forgot-password', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json'},
         body: JSON.stringify({email}),
@@ -104,7 +104,7 @@ const ForgetPassword = () => {
             const value = {
                 identifier:values.email,
               };
-          const response = await fetch("http://localhost:1337/auth/forgot-password", {
+          const response = await fetch("https://hydro-naval-server.onrender.com/api", {
             method: "POST",
             headers: {
                 "Content-Type":"application/json",
@@ -167,7 +167,7 @@ const ForgetPassword = () => {
                   htmlType="submit"
                   className="login_submit_btn"
                 >
-                  Send Code {isLoading && <Spin size="small" />}
+                  Reset Password {isLoading && <Spin size="small" />}
                 </Button>
                 
                 

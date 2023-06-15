@@ -29,12 +29,15 @@ const Directory = () => {
   return (
     <Space>
         <div className="app">
-        <input
-         className='search'
-         placeholder='Search names,address,no...'
+        <div className='searchh'>
+        <div className="searchitem">Search by Name, Place, Rank</div>
+      <input   
+        //  placeholder='Search by name,place...'
          type='text'
+         className= "searchbar"
          onChange={(e) => setQuery(e.target.value)}
          />
+      </div>
         <ul className='list'>
         <Table data={search(Users)}/>
         </ul>
