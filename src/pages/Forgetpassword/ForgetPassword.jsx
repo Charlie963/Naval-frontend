@@ -104,7 +104,7 @@ const ForgetPassword = () => {
             const value = {
                 identifier:values.email,
               };
-          const response = await fetch("https://hydro-naval-server.onrender.com/api", {
+          const response = await fetch("https://hydro-naval-server.onrender.com/api/auth/forgot-password", {
             method: "POST",
             headers: {
                 "Content-Type":"application/json",
