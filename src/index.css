@@ -76,7 +76,7 @@ code {
   align-items: center;
   padding: 0px;
   height: 15vh;
-  background: linear-gradient(to right, #224f7b, #000080);
+  background: linear-gradient(to right, #184877, #0505a0);
   /* background: linear-gradient(90deg, rgba(36,0,16,1) 0%, rgba(6,41,46,1) 0%, rgba(87,51,138,1) 0%, rgba(85,70,255,1) 19%, rgba(0,78,149,1) 86%); */
   border-radius: 20px;
   margin-right: 1vh;
@@ -89,7 +89,7 @@ code {
   padding-top: 13px;
   font-size: xx-large;
   font-weight: 700;
-
+  font-family: serif;
 }
 
 .home_button{
@@ -119,6 +119,10 @@ code {
   margin-right: 1rem;
 }
 
+.signUpBotton{
+  margin-right: 6px;
+}
+
 .header_space_brand {
   padding-top: 13px;
   color: var(rgb(0, 0, 0));
@@ -137,6 +141,7 @@ code {
 @media screen and (max-width: 1165px){
   .title{
     font-size: x-large;
+    font-family: serif;
   }
 }
 
@@ -149,7 +154,7 @@ code {
   align-items: center;
   padding: 0px;
   height: 15vh;
-  background: linear-gradient(to left, #4177ad, #000080);
+  background: linear-gradient(to left, hsl(226, 91%, 26%), #000080);
   /* background: linear-gradient(90deg, rgba(36,0,16,1) 0%, rgba(6,41,46,1) 0%, rgba(87,51,138,1) 0%, rgba(85,70,255,1) 19%, rgba(0,78,149,1) 86%); */
   border-radius: 0px;
   margin-right: 0vh;
@@ -160,8 +165,10 @@ code {
   display: flex;
   flex-direction: row;
   padding-top: 0;
-  font-size: small;
+  font-size: x-large;
   color: white;
+  font-family: serif;
+
  }
 
  }
@@ -187,8 +194,9 @@ code {
    display: flex;
    flex-direction: row;
    padding-top: 0;
-   font-size: 20px;
-   color: white;
+   font-size: x-large;
+   color: rgb(247, 254, 252);
+   font-family: serif;
   }
     .directions{
     display: flex;
@@ -244,13 +252,28 @@ code {
   .title{
     display: flex;
     flex-direction: row;
-    padding-top: 0;
-    font-size: SMALL;
+    font-size: x-large;
+    font-family: serif;
     color: white;
+    padding-bottom: 25px;
    }
+
+   .header_space{
+    height: 100px;
+  }
+
+  .header_space_image{
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left:-3px
+  }
+  .fas{
+margin-bottom: 40px;
+  }
 }
 
-@media only screen and (max-width:500px) and (min-width:370px) {
+@media only screen and (max-width:500px) and (min-width:360px) {
 
   .header_space{
     height: 100px;
@@ -262,7 +285,8 @@ code {
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
-    font-size: medium;
+    font-family: serif;
+    font-size: large;
   }
   .ant-btn{
     padding: 0px 0px;

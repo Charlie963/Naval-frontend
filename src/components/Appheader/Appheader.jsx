@@ -58,12 +58,13 @@ const AppHeader = () => {
             </div>
             <div className="fa-bar" onClick={() => setIsMobile(!isMobile)}>{
                   isMobile ? (<div className="fas fa-times"></div>) : (<i className="fas fa-bars"></i>)
-                } </div>
+                } 
+            </div>
             
           </div>
         ) : (
-          <>
-          <div className="auth_button_signUp">
+          <div className="header_user signUpBotton">
+          <div className={isMobile ? "directions active":"directions" }>
             <Button className="auth_button_login" href="/signin" type="link">
               Login
             </Button>
@@ -75,7 +76,12 @@ const AppHeader = () => {
               SignUp
             </Button>
             </div>
-          </>
+
+            <div className="fa-bar" onClick={() => setIsMobile(!isMobile)}>{
+                  isMobile ? (<div className="fas fa-times"></div>) : (<i className="fas fa-bars"></i>)
+                } </div>
+            
+            </div>
         )}
       </Space>
     </Space>
