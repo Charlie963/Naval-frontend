@@ -76,7 +76,7 @@ code {
   align-items: center;
   padding: 0px;
   height: 15vh;
-  background: linear-gradient(to right, #184877, #0505a0);
+  background: linear-gradient(to right, #184877, navy);
   /* background: linear-gradient(90deg, rgba(36,0,16,1) 0%, rgba(6,41,46,1) 0%, rgba(87,51,138,1) 0%, rgba(85,70,255,1) 19%, rgba(0,78,149,1) 86%); */
   border-radius: 20px;
   margin-right: 1vh;
