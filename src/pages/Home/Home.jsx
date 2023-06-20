@@ -59,7 +59,7 @@ endeavours –<br/> a big <strong>‘Thank You’</strong> for your service.<br/
 
     <p className='sign'>Adhir Arora<br />
     Vice Admiral <br/>
-    Chief of Hydragrapic Department
+    Chief of Hydrograpic Department
     </p>
     </div>
 
