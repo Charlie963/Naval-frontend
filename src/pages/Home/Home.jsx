@@ -18,7 +18,7 @@ const Home = () => {
     <p className='para'>
       <div className='topic'>
       <h2>Indian Naval Hydrography Veterans<br/> 
-        Unity in Service</h2>
+      <span class="sub-heading">Unity in Service</span></h2>
       </div>
       
     </p>
