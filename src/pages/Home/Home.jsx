@@ -73,7 +73,7 @@ endeavours –<br/> a big <strong>‘Thank You’</strong> for your service.<br/
       Signup
     </Button> 
                 
-    <h1>Get in touch<br/></h1>
+    <h1 className='getIn'>Get in touch<br/></h1>
           
       </div> 
    

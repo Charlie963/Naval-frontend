@@ -273,13 +273,19 @@ margin-bottom: 40px;
   }
 }
 
-@media only screen and (max-width:500px) and (min-width:360px) {
+@media only screen and (max-width:500px) and (min-width:355px) {
 
   .header_space{
     height: 100px;
-    padding-bottom: 0px;
   }
 
+  .header_user{
+    margin-bottom: -190%;
+  }
+
+  .login_homepage{
+    display: none;
+  }
   
   .title{
     color: rgb(255, 255, 255);
@@ -287,6 +293,7 @@ margin-bottom: 40px;
     flex-direction: row;
     font-family: serif;
     font-size: large;
+    margin-bottom: -30px;
   }
   .ant-btn{
     padding: 0px 0px;
@@ -976,6 +983,14 @@ footer{
     display: none;
   }
 
+  .login_homepage{
+    display: none;
+  }
+
+  .getIn{
+    display: none;
+
+  }
   
 }
 
@@ -1156,7 +1171,7 @@ footer{
   }
   
 }
-@media only screen and  (max-width:376px) {
+@media only screen and  (max-width:374px) {
 
   .profile_page_card{
     margin-left: 0vh;
@@ -1234,15 +1249,38 @@ footer{
       margin-bottom: -10vh;
       padding-bottom: 5vh;
  }
+
+ .header_space{
+  margin-bottom: 100px;
+ }
+
+ .header_border{
+  margin-bottom: -90px;
+}
+
+.title{
+  margin-bottom: -30px;
+}
+
+.header_space_image{
+  margin-bottom: -3px;
+}
+
   .border{
-    margin-top: 11vh;
+    margin-top: 10vh;
+  
   }
+
 
   .homepage_layout{
     border-radius: 0px;
     margin-left: 0px;
     width: 100%;
     margin-right: 0px;
+  }
+
+  .login_homepage{
+    display: none;
   }
 
   .login_homepage h1{

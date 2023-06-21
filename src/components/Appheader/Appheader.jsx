@@ -22,7 +22,7 @@ const AppHeader = () => {
   };
 
   return (
-    <div>
+    <div className="header_border">
     <Space className="header_space">
       <div className="home_button">
           <Button className="header_space_image" href="/home" type="link">
@@ -77,8 +77,8 @@ const AppHeader = () => {
             </Button>
             </div>
 
-            <div className="fa-bar" onClick={() => setIsMobile(!isMobile)}>{
-                  isMobile ? (<div className="fas fa-times"></div>) : (<i className="fas fa-bars"></i>)
+            <div className="fa-bar " onClick={() => setIsMobile(!isMobile)}>{
+                  isMobile ? (<div className="fas fa-times "></div>) : (<i className="fas fa-bars "></i>)
                 } </div>
             
             </div>
