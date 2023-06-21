@@ -37,7 +37,7 @@ const UploadImage = () => {
       formData.append('ref', "plugin::users-permissions.user"); 
 
       // const response = await axios.post('http://localhost:1338/api/upload', formData, {
-        const response = await axios.post('https://hydro-naval-server.onrender.com/api/upload', formData, {
+        const response = await axios.post('https://hydro-naval-server1.onrender.com/api/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           Authorization: `Bearer ${getToken()}`
