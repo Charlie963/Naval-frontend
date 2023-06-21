@@ -1096,6 +1096,7 @@ footer{
     margin-left: 0px;
     position: relative;
     height: auto;
+    width: auto;
   }
 
 .big_container{
@@ -1191,6 +1192,7 @@ footer{
     margin-left: 0px;
     position: relative;
     height: auto;
+    width: auto;
   }
  
   
@@ -1339,7 +1341,7 @@ footer{
     margin-left: -60px;
     position: center;
     height: auto;
-  
+    width: auto;
   }
 
   
