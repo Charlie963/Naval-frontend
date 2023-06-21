@@ -22,9 +22,7 @@ const Home = () => {
       </div>
       
     </p>
-    <div className='login_homepage'>
-          <h1>Welcome Friends & Alumini<br/></h1>
-    </div>   
+     
           
     </div>
 
